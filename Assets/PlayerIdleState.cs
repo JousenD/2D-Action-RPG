@@ -25,6 +25,8 @@ public class PlayerIdleState : PlayerGroundedState
         base.Update();
 
         //player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
+        if (xInput == player.facingDir && player.IsWallDetected())
+            return;
 
 
         if(xInput != 0)
