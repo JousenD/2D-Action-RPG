@@ -13,6 +13,8 @@ public class PlayerIdleState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+
+        rb.velocity = new Vector2(0,0);
     }
 
     public override void Exit()
@@ -24,7 +26,6 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
 
-        //player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
         if (xInput == player.facingDir && player.IsWallDetected())
             return;
 
