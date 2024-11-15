@@ -14,8 +14,7 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Enter();
 
-        rb.velocity = new Vector2(0,0);
-    }
+        player.ZeroVelocity();    }
 
     public override void Exit()
     {
@@ -30,7 +29,7 @@ public class PlayerIdleState : PlayerGroundedState
             return;
 
 
-        if(xInput != 0)
+        if(xInput != 0 && !player.isBusy)
             stateMachine.ChangeState(player.moveState);
     }
 }
