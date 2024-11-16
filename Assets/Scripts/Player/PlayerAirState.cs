@@ -31,7 +31,7 @@ public class PlayerAirState : PlayerState
         if(player.IsGroundDetected())
             stateMachine.ChangeState(player.idleState);
 
-        if(xInput != 0)
+        if(xInput != 0 && !player.IsWallDetected()) //player IswallDetected was added from me
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.velocity.y);
     }
 }
