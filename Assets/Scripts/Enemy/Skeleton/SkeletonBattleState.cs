@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class SkeletonBattleState : SkeletonGroundedState
 {
-    private Transform player;
-    private EnemySkeleton enemySkeleton;
+    //Commented due to redundancy with base class
+
+    // private Transform player;        
+    // private EnemySkeleton enemySkeleton;
     private int moveDir;
     public SkeletonBattleState(Enemy _enemyBase, EnemyStateMachine _statemachine, string _animBoolName, EnemySkeleton _enemy) : base(_enemyBase, _statemachine, _animBoolName, _enemy)
     {
-        this.enemySkeleton = _enemy;
+        //Commented due to redundancy with base class
+        // this.enemySkeleton = _enemy;
     }
 
     public override void Enter()
