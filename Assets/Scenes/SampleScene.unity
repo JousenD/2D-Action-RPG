@@ -7584,9 +7584,12 @@ MonoBehaviour:
   clonePrefab: {fileID: 6432006484357577749, guid: c590b9590d0a53647a74e2ea74e79a73, type: 3}
   cloneDuration: 1.5
   canAttack: 1
-  createCloneOnDashStart: 0
-  createCloneOnDashOver: 0
+  createCloneOnDashStart: 1
+  createCloneOnDashOver: 1
   canCreateCloneOnCounterAttack: 1
+  canDuplicateClone: 1
+  chanceToDuplicate: 50
+  crystalInsteadOfClone: 0
 --- !u!114 &1734678242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7600,7 +7603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0
-  swordType: 3
+  swordType: 0
   bounceAmount: 4
   bounceGravity: 5
   bounceSpeed: 20
@@ -7655,8 +7658,8 @@ MonoBehaviour:
   crystalDuration: 1.5
   crystalPrefab: {fileID: 6170307887821322663, guid: 88dec0d98d0ac4b4499d355797201e3c, type: 3}
   cloneInsteadOfCrystal: 1
-  canExplode: 0
-  canMoveToEnemy: 0
+  canExplode: 1
+  canMoveToEnemy: 1
   moveSpeed: 4
   canUseMultiStacks: 0
   amountOfStacks: 3

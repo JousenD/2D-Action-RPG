@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 48
+  controlID: 21
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 22
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 50
+  controlID: 23
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 140
+  controlID: 84
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1108,7 +1108,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Skills
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1116,15 +1116,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scripts/Skills
+  - Assets/Prefabs
   m_LastFoldersGridSize: 56
   m_LastProjectPath: C:\Custom Files\GameDev Courses\Repos\Unity\2D Action RPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 97}
-    m_SelectedIDs: 006e0000
-    m_LastClickedID: 28160
+    m_SelectedIDs: f86d0000
+    m_LastClickedID: 28152
     m_ExpandedIDs: 00000000c46d0000c66d0000c86d0000ca6d0000cc6d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1287,14 +1287,14 @@ MonoBehaviour:
     - {fileID: 215805147519719091, guid: cd16cec4fadcbdc45ad1cbc324344bdc, type: 2}
     - {fileID: 3465240310700559363, guid: f14e6a1bc9ee453409884c6a99a8ceba, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1.1127986
+    - e00: 0.4406514
       e01: 0
       e02: 0
-      e03: -216.31284
+      e03: 93.735886
       e10: 0
-      e11: 1.1127986
+      e11: 0.4406514
       e12: 0
-      e13: -330.72302
+      e13: -90.49228
       e20: 0
       e21: 0
       e22: 1
@@ -1390,7 +1390,7 @@ MonoBehaviour:
       e10: 0
       e11: 0.7031579
       e12: 0
-      e13: 149.2
+      e13: 99.47894
       e20: 0
       e21: 0
       e22: 1
@@ -1400,9 +1400,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 1d3465a213f24f746a53bd240176f6b9, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: f14e6a1bc9ee453409884c6a99a8ceba, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -2948015397830293362, guid: 1d3465a213f24f746a53bd240176f6b9, type: 2}
+  - m_Target: {fileID: 3465240310700559363, guid: f14e6a1bc9ee453409884c6a99a8ceba, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1493,7 +1493,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 216
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
